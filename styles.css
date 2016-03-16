@@ -1,0 +1,32 @@
+h1 {
+  font-size: 5rem !important;
+ 
+}
+.container {
+  margin-top: 1em; 
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.container header img {
+  max-width: 100%;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.container header.test {
+  text-align: center
+}
+.container header.test img {
+  max-width: 25%;
+  margin-top: 0;
+  border-radius: 50%;
+}
+
+header.test h1 {
+  font-size: 5rem !important;
+}
