@@ -1,5 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  background:
+  linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px
+}
+
+body, 
+body h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
-  margin-top: 1em; 
+  margin: 2em auto; 
+  box-shadow: 0 0 10px #333;
+  padding: 2em;
+  border-radius: 10px;
+  background: white;
 }
 
 /* Customize container */
@@ -15,7 +34,7 @@
   border-radius: 50%;
 }
 .container header {
-  text-align: center
+  text-align: center;
 }
 
 .container header img {
@@ -29,4 +48,18 @@
     margin-top: 0;
     border-radius: 50%;
   }
+}
+.red {
+  color: #990000 !important
+}
+.social {
+  font-size: 2.5em;
+}
+
+.social li {
+  margin-bottom: .5em;
+}
+
+.about {
+  font-size: 1.5em;
 }
